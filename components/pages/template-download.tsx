@@ -30,7 +30,7 @@ export default function TemplateDownload() {
           <DownloadButton 
             icon={<FaGithub size={24} />}
             targetText="LaTeX Template"
-            link="https://github.com/ajienator/template-skripsi-latex-ilkom"
+            link="https://github.com/ajipurwinarko/Unnes-TA"
             isLink
           />
           <DownloadButton 

@@ -5,6 +5,12 @@ const updateHistoryData: {
     thanksToEmail: string,
 }[] = [
     {
+        date: '12 Maret 2025',
+        description: 'Update template LaTeX Terbaru',
+        thanksTo: 'Pak Aji Purwinarko',
+        thanksToEmail: 'aji.purwinarko@mail.unnes.ac.id'
+    },
+    {
         date: '15 Juni 2025',
         description: 'Update Min. Bimbingan untuk Sidang : 16 Kali',
         thanksTo: 'Fauzan',
