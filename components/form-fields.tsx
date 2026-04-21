@@ -90,7 +90,7 @@ export function FormFields() {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-4 p-4 bg-muted/30 rounded-lg border max-w-3xl">
+    <div className="grid grid-cols-1 gap-4 p-4 bg-muted/30 rounded-lg border">
       <div className="mb-2">
         <button
           type="button"
