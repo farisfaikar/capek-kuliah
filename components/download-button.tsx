@@ -61,7 +61,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
         setText(targetText);
     };
 
-    const downloadCV = () => {
+    const downloadFile = () => {
         if (!isLink && filePath && fileName) {
             console.log("downloading");
             download(filePath, fileName);
@@ -72,7 +72,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
         if (isLink && link) {
             window.open(link, "_blank");
         } else {
-            downloadCV();
+            downloadFile();
         }
     }
 
