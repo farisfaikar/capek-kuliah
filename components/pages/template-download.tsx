@@ -1,5 +1,5 @@
 import DownloadButton from "@/components/download-button";
-import { TbFileTypeDocx, TbFileTypePdf } from "react-icons/tb";
+import { TbFileTypeDocx } from "react-icons/tb";
 import { FaGithub, FaBookOpen } from "react-icons/fa";
 
 export default function TemplateDownload() {
@@ -11,21 +11,15 @@ export default function TemplateDownload() {
             Download Template Dokumen Skripsi
           </h1>
           <p className="text-sm lg:text-lg text-slate-400">
-            Anda dapat mengunduh template dokumen skripsi dalam format DOCX, PDF, dan terdapat juga link GitHub untuk template LaTeX! Terdapat juga link buku panduan untuk penulisan skripsi.
+            Anda dapat mengunduh template dokumen skripsi dalam format DOCX melalui link Google Drive di bawah. Terdapat juga link GitHub untuk template LaTeX serta buku panduan untuk penulisan skripsi.
           </p>
         </div>
         <div className="flex flex-col items-center justify-between gap-2 sm:flex-row">
           <DownloadButton 
             icon={<TbFileTypeDocx size={24} />}
-            targetText="Download DOCX"
-            filePath="/files/[v1.6] Template Proposal Skripsi_Ilmu Komputer_UNNES.docx"
-            fileName="[v1.6] Template Proposal Skripsi_Ilmu Komputer_UNNES.docx"
-          />
-          <DownloadButton 
-            icon={<TbFileTypePdf size={24} />}
-            targetText="Download PDF"
-            filePath="/files/[v1.6] Template Proposal Skripsi_Ilmu Komputer_UNNES.pdf"
-            fileName="[v1.6] Template Proposal Skripsi_Ilmu Komputer_UNNES.pdf"
+            targetText="DOCX Template"
+            link="https://drive.google.com/drive/folders/1wd7zvvi7ukgo2TI5ZhfynmxNRs-h8IX7?usp=sharing"
+            isLink
           />
           <DownloadButton 
             icon={<FaGithub size={24} />}
